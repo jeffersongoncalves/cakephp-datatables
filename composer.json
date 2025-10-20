@@ -1,7 +1,7 @@
 {
   "name": "jeffersonsimaogoncalves/cakephp-datatables",
   "description": "jQuery DataTables for CakePHP 3",
-  "homepage": "https://github.com/jeffersonsimaogoncalves/cakephp-datatables",
+  "homepage": "https://github.com/jeffersongoncalves/cakephp-datatables",
   "type": "cakephp-plugin",
   "keywords": [
     "cakephp",
@@ -21,17 +21,17 @@
     },
     {
       "name": "Jefferson Simão Gonçalves",
-      "homepage": "https://github.com/jeffersonsimaogoncalves"
+      "homepage": "https://github.com/jeffersongoncalves"
     }
   ],
   "require": {
     "php": ">=7.0",
     "cakephp/cakephp": "^3.6",
-    "jeffersonsimaogoncalves/cakephp-utils": "@stable"
+    "jeffersonsimaogoncalves/cakephp-utility": "^6.0"
   },
   "support": {
-    "issues": "https://github.com/jeffersonsimaogoncalves/cakephp-datatables/issues",
-    "source": "https://github.com/jeffersonsimaogoncalves/cakephp-datatables"
+    "issues": "https://github.com/jeffersongoncalves/cakephp-datatables/issues",
+    "source": "https://github.com/jeffersongoncalves/cakephp-datatables"
   },
   "autoload": {
     "psr-4": {
