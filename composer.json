@@ -1,48 +1,51 @@
 {
-  "name": "jeffersonsimaogoncalves/cakephp-datatables",
-  "description": "jQuery DataTables for CakePHP 3",
-  "homepage": "https://github.com/jeffersongoncalves/cakephp-datatables",
-  "type": "cakephp-plugin",
-  "keywords": [
-    "cakephp",
-    "datatables"
-  ],
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Frank Heider",
-      "homepage": "https://github.com/fheider",
-      "role": "Author"
+    "name": "jeffersonsimaogoncalves/cakephp-datatables",
+    "description": "jQuery DataTables for CakePHP 3",
+    "homepage": "https://github.com/jeffersongoncalves/cakephp-datatables",
+    "type": "cakephp-plugin",
+    "keywords": [
+        "cakephp",
+        "datatables"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Frank Heider",
+            "homepage": "https://github.com/fheider",
+            "role": "Author"
+        },
+        {
+            "name": "Johannes Jordan",
+            "homepage": "https://github.com/ypnos-web",
+            "role": "Author"
+        },
+        {
+            "name": "Jefferson Simão Gonçalves",
+            "homepage": "https://github.com/jeffersongoncalves"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "cakephp/cakephp": "^3.6",
+        "jeffersonsimaogoncalves/cakephp-utility": "^6.0"
     },
-    {
-      "name": "Johannes Jordan",
-      "homepage": "https://github.com/ypnos-web",
-      "role": "Author"
+    "support": {
+        "issues": "https://github.com/jeffersongoncalves/cakephp-datatables/issues",
+        "source": "https://github.com/jeffersongoncalves/cakephp-datatables"
     },
-    {
-      "name": "Jefferson Simão Gonçalves",
-      "homepage": "https://github.com/jeffersongoncalves"
+    "autoload": {
+        "psr-4": {
+            "DataTables\\": "src"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "htaccess-protect": true,
+        "optimize-autoloader": true
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
     }
-  ],
-  "require": {
-    "php": ">=7.0",
-    "cakephp/cakephp": "^3.6",
-    "jeffersonsimaogoncalves/cakephp-utility": "^6.0"
-  },
-  "support": {
-    "issues": "https://github.com/jeffersongoncalves/cakephp-datatables/issues",
-    "source": "https://github.com/jeffersongoncalves/cakephp-datatables"
-  },
-  "autoload": {
-    "psr-4": {
-      "DataTables\\": "src"
-    }
-  },
-  "minimum-stability": "stable",
-  "prefer-stable": true,
-  "config": {
-    "sort-packages": true,
-    "htaccess-protect": true,
-    "optimize-autoloader": true
-  }
 }
